@@ -1,0 +1,31 @@
+.box{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* Color for each box */
+.box1{ background: #1abc9c;}
+.box2{ background: #2498db;}
+.box3{ background: #3b509b;}
+.box4{ background: #456789;}
+.box5{ background: #56af91;}
+.box6{ background: #678910;}
+.box7{ background: #7891d1;}
+.box8{ background: #891011;}
+.box9{ background: #91d111;}
+.box10{ background: #101112;}
+
+.container{
+  display: flex;
+  border: 10px solid goldenrod;
+  height: 100vh;
+  flex-wrap: wrap; 
+  align-content: flex-start;
+}
+
+.box{
+    flex:1;
+}
